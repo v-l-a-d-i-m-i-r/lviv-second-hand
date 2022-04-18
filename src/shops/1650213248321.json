@@ -1,0 +1,26 @@
+{
+  "id": "1650213248321",
+  "name": "Evrik",
+  "address": "Lychakivska St, 191",
+  "googleMapsShortLink": "https://goo.gl/maps/qNLhDnmSg2xTHKP96",
+  "googleMapsFullLink": "https://www.google.com/maps/place/Lychakivska+St,+191,+L'viv,+L'vivs'ka+oblast,+79000/@49.8359533,24.0705056,20z/data=!4m5!3m4!1s0x473add4a7c51dc79:0x7a98af67e5cdc571!8m2!3d49.8360867!4d24.0700011",
+  "workingHours": [
+    "09:00 - 18:00",
+    "09:00 - 14:00",
+    "09:00 - 18:00",
+    "09:00 - 18:00",
+    "09:00 - 18:00",
+    "09:00 - 18:00",
+    "10:00 - 17:00"
+  ],
+  "priceMap": {
+    "regular": {
+      "prices": [258, 238, 218, 198, 178, 168, 158, 148, 128, 108, 88, 78, 58, 28],
+      "deliveryDate": "2022-04-13"
+    },
+    "luxury": {
+      "prices": [648, 628, 608, 588, 568, 548, 518,488, 458, 428, 388, 358, 328, 0],
+      "deliveryDate": "2022-04-14"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+import shop1650117279427 from './1650117279427.json';
+import shop1650211155930 from './1650211155930.json';
+import shop1650213248321 from './1650213248321.json';
+
+export default [
+  shop1650117279427,
+  shop1650211155930,
+  shop1650213248321,
+];

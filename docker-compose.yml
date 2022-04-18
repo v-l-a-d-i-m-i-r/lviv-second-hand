@@ -1,0 +1,13 @@
+
+version: '3.1'
+
+services:
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - 9000:9000
+    volumes:
+      - ./src/:/lviv-second-hand/src/
+    command: npm run dev

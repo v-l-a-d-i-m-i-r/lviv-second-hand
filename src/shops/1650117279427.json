@@ -1,0 +1,26 @@
+{
+  "id": "1650117279427",
+  "name": "Euro Second Hand",
+  "address": "Medovoi Pechery St, 1",
+  "googleMapsShortLink": "https://goo.gl/maps/5YDbxdK253WeN6QM8",
+  "googleMapsFullLink": "https://www.google.com/maps/place/Yevro+Sekond+Khend/@49.8268485,24.0726514,20z/data=!4m5!3m4!1s0x473ac39ae9c774bd:0xffa846a54ac50de5!8m2!3d49.8268041!4d24.0726212",
+  "workingHours": [
+    "09:00 - 14:00",
+    "08:00 - 19:00",
+    "09:00 - 19:00",
+    "09:00 - 19:00",
+    "09:00 - 19:00",
+    "09:00 - 19:00",
+    "09:00 - 17:00"
+  ],
+  "priceMap": {
+    "regular": {
+      "prices": [269, 244, 226, 174, 123, 78, 31],
+      "deliveryDate": "2022-04-05"
+    },
+    "luxury": {
+      "prices": [639, 582, 521, 462, 403, 344, 269],
+      "deliveryDate": "2022-04-06"
+    }
+  }
+}
