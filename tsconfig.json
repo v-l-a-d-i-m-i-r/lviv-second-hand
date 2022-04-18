@@ -23,5 +23,5 @@
     "noImplicitAny": false
   },
   "exclude": ["node_modules", "build"],
-  "include": ["./src", "webpack.config.ts" ]
+  "include": ["./src", "webpack.common.ts", "webpack.dev.ts", "webpack.prod.ts" ]
 }
