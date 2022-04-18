@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+# Rule for router history mode
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
