@@ -1,0 +1,22 @@
+{
+  "id": "1650389141818",
+  "name": "Світ Секонд-хенду",
+  "address": "Tsekhova St, 1",
+  "googleMapsShortLink": "https://goo.gl/maps/BJfUJZdc1FQUeThq9",
+  "googleMapsFullLink": "https://www.google.com/maps/place/Svit+Sekond-Khendu/@49.8491052,24.0219209,17z/data=!3m1!4b1!4m5!3m4!1s0x473add4b6cf37825:0xb9cbe5d73771fd7c!8m2!3d49.8491556!4d24.024111",
+  "workingHours": [
+    "09:00 - 20:00",
+    "09:00 - 20:00",
+    "09:00 - 20:00",
+    "09:00 - 20:00",
+    "09:00 - 20:00",
+    "09:00 - 20:00",
+    "10:00 - 19:00"
+  ],
+  "priceMap": {
+    "regular": {
+      "prices": [265, 247, 229, 212, 193, 175, 157, 142, 128, 115, 99, 72, 48, 27],
+      "deliveryDate": "2022-04-15"
+    }
+  }
+}
