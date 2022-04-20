@@ -4,6 +4,7 @@ export type ShopObject = {
   id: string,
   name: string,
   address: string,
+  googleMapsShortLink: string;
   workingHours: string[],
   priceMap: {
     regular: {
@@ -33,6 +34,7 @@ export class ShopService {
   address: ShopObject['address'];
   hasLuxury: boolean;
   workingHours: ShopObject['workingHours'];
+  googleMapsLink: ShopObject['googleMapsShortLink'];
   private priceMap: ShopObject['priceMap'];
 
   constructor(shopObject: ShopObject) {
@@ -42,6 +44,7 @@ export class ShopService {
     this.priceMap = shopObject.priceMap;
     this.hasLuxury = Boolean(shopObject.priceMap.luxury);
     this.workingHours = shopObject.workingHours;
+    this.googleMapsLink = shopObject.googleMapsShortLink;
   }
 
   // eslint-disable-next-line class-methods-use-this

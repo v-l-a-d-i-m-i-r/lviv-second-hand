@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  color: #535353;
   font-family: sans-serif;
 }
 
@@ -20,17 +19,23 @@ td {
   border-color: inherit;
 }
 
-td span {
-  background-color: #f0f0f0;
+td span,
+td a {
   display: inline-block;
   padding: 2px 5px;
   min-width: 50%;
 }
 
+td span {
+  background-color: #f0f0f0;
+  color: #535353;
+}
+
 .date,
 .working_hours,
 .regular_price,
-.luxury_price {
+.luxury_price,
+.regular_price_only {
   text-align: center;
 }
 
@@ -40,7 +45,8 @@ td span {
 }
 
 .date,
-.working_hours {
+.working_hours,
+.regular_price_only {
   width: 100%;
 }
 
@@ -57,7 +63,8 @@ td span {
 }
 
 .regular_delivery_day {
-  .regular_price {
+  .regular_price,
+  .regular_price_only {
     background-color: #9add98;
   }
 }

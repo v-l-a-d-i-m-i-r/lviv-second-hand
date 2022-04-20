@@ -26,7 +26,7 @@ const App: React.FC = () => {
             <tr key={shop.id}>
               <td>
                 <span className="name">{shop.name}</span>
-                <span className="address">{shop.address}</span>
+                <a className="address" target="_blank" rel="noopener noreferrer" href={shop.googleMapsLink}>{shop.address}</a>
               </td>
               {dates.map((date) => {
                 const shopInfoByDate = shop.getInfoByDate(date);
@@ -39,7 +39,7 @@ const App: React.FC = () => {
                   return (
                     <td className={regularClassNames}>
                       <span className="working_hours">{shopInfoByDate.workingHours}</span>
-                      <span className="regular_price">{shopInfoByDate.regularPrice}</span>
+                      <span className="regular_price_only">{shopInfoByDate.regularPrice}</span>
                     </td>
                   );
                 }
