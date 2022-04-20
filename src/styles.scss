@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #F0F1F3;
+  background-color: #f0f1f3;
 }
 
 table {
@@ -35,9 +35,8 @@ td span {
 }
 
 .date {
-  color: #ffffff;
+  color: #fff;
   background-color: #109e52;
-  // width: 80px;
 }
 
 .date,
@@ -48,7 +47,7 @@ td span {
 .name,
 .address {
   width: 195px;
-  white-space: nowrap ;
+  white-space: nowrap;
   overflow-wrap: break-word;
 }
 
@@ -72,7 +71,3 @@ td span {
     background-color: #fcc69a;
   }
 }
-
-
-
-

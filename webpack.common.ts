@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import path from 'path';
 import { Configuration, DefinePlugin } from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
