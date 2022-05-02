@@ -87,7 +87,7 @@ const shop4 = {
   id: '1651427957286',
   name,
   googleMapsShortLink: 'https://goo.gl/maps/BKzroMpkyE6cYHde6',
-  googleMapsFullLink: "https://www.google.com/maps/place/Euro+Second-hand/@49.7970509,24.0536569,15z/data=!4m5!3m4!1s0x0:0x41d6bc7cc5da6ef3!8m2!3d49.7970509!4d24.0536569",
+  googleMapsFullLink: 'https://www.google.com/maps/place/Euro+Second-hand/@49.7970509,24.0536569,15z/data=!4m5!3m4!1s0x0:0x41d6bc7cc5da6ef3!8m2!3d49.7970509!4d24.0536569',
   address: 'Chervonoyi Kalyny Ave, 59 (right)',
   workingHours: [
     '09:00 - 20:00',
@@ -114,7 +114,7 @@ const shop5 = {
   id: '1651430404378',
   name,
   googleMapsShortLink: 'https://goo.gl/maps/BKzroMpkyE6cYHde6',
-  googleMapsFullLink: "https://www.google.com/maps/place/Euro+Second-hand/@49.7970509,24.0536569,15z/data=!4m5!3m4!1s0x0:0x41d6bc7cc5da6ef3!8m2!3d49.7970509!4d24.0536569",
+  googleMapsFullLink: 'https://www.google.com/maps/place/Euro+Second-hand/@49.7970509,24.0536569,15z/data=!4m5!3m4!1s0x0:0x41d6bc7cc5da6ef3!8m2!3d49.7970509!4d24.0536569',
   address: 'Chervonoyi Kalyny Ave, 59 (left)',
   workingHours: [
     '09:00 - 20:00',
