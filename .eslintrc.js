@@ -15,6 +15,8 @@ module.exports = {
       code: 150,
       ignoreStrings: true,
     }],
+    'no-multiple-empty-lines': ["error", { "max": 1, "maxEOF": 1 }],
+    'eol-last': ["error", "always"],
     'react/prop-types': 0,
     'object-curly-newline': ['error', { consistent: true }],
     'prefer-object-spread': 0,
