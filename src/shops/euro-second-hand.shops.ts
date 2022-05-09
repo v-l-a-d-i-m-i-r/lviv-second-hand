@@ -241,15 +241,12 @@ const shop9 = {
   ],
   priceMap: {
     regular: {
-      prices: regularPrices,
-      deliveryDate: '2022-05-09',
-    },
-    luxury: {
-      prices: luxuryPrices,
-      deliveryDate: '2022-05-10',
+      prices: regularPricesTwoWeeks,
+      deliveryDate: '2022-05-05',
     },
   },
 };
+
 export default [
   shop1,
   shop2,
