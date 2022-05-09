@@ -197,6 +197,59 @@ const shop7 = {
   },
 };
 
+const shop8 = {
+  id: '1652110082840',
+  name,
+  googleMapsShortLink: 'https://goo.gl/maps/zdFmiaDjKr98CrqQA',
+  googleMapsFullLink: 'https://www.google.com/maps/place/Yevro+Sekond-Khend/@49.8125179,23.9714395,13z/data=!4m6!3m5!1s0x473add70343b223d:0xaae597add4d297f6!8m2!3d49.8384374!4d24.023206!15sCkTQldCy0YDQviDRgdC10LrQvtC90LQg0YXQtdC90LQsINGO0LvQuNGD0YjQsCDRgdC70L7QstCw0YbQutC-0LPQviAxNFpFIkPQtdCy0YDQviDRgdC10LrQvtC90LQg0YXQtdC90LQg0Y7Qu9C40YPRiNCwINGB0LvQvtCy0LDRhtC60L7Qs9C-IDE0kgETdXNlZF9jbG90aGluZ19zdG9yZQ?shorturl=1',
+  address: "Slovats'koho St, 14",
+  workingHours: [
+    F_0900_T_1900,
+    F_0900_T_1900,
+    F_0900_T_1900,
+    F_0900_T_1900,
+    F_0900_T_1900,
+    F_0900_T_1900,
+    F_0900_T_1900,
+  ],
+  priceMap: {
+    regular: {
+      prices: regularPrices,
+      deliveryDate: '2022-05-09',
+    },
+    luxury: {
+      prices: luxuryPrices,
+      deliveryDate: '2022-05-10',
+    },
+  },
+};
+
+const shop9 = {
+  id: '1652115961892',
+  name,
+  googleMapsShortLink: 'https://goo.gl/maps/czj5PUBuGXZhtYmR7',
+  googleMapsFullLink: 'https://www.google.com/maps/place/%D0%84%D0%B2%D1%80%D0%BE+%D0%A1%D0%B5%D0%BA%D0%BE%D0%BD%D0%B4+%D0%A5%D0%B5%D0%BD%D0%B4/@49.7936475,24.0595463,17z/data=!4m5!3m4!1s0x473ae92509b61333:0xa3f06aedb8a5c460!8m2!3d49.7936475!4d24.061735',
+  address: 'Sykhivska St, 13',
+  workingHours: [
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+  ],
+  priceMap: {
+    regular: {
+      prices: regularPrices,
+      deliveryDate: '2022-05-09',
+    },
+    luxury: {
+      prices: luxuryPrices,
+      deliveryDate: '2022-05-10',
+    },
+  },
+};
 export default [
   shop1,
   shop2,
@@ -205,4 +258,6 @@ export default [
   shop5,
   shop6,
   shop7,
+  shop8,
+  shop9,
 ];
