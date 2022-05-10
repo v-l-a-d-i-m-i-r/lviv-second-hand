@@ -173,8 +173,8 @@ const shop6 = {
 const shop7 = {
   id: '1652029743878',
   name,
-  googleMapsShortLink: 'https://goo.gl/maps/TRjzNFru8Bh4wPcB7',
-  googleMapsFullLink: 'https://www.google.com/maps/place/Euro+second+hand/@49.8075775,23.9955939,17z/data=!3m1!4b1!4m5!3m4!1s0x473ae7bd2ffd8c6b:0x25528e37485589a2!8m2!3d49.8075585!4d23.9979474?shorturl=1',
+  googleMapsShortLink: 'https://goo.gl/maps/GCAsQ2xnGwGzsJmh7',
+  googleMapsFullLink: 'https://www.google.com/maps/place/Euro+second+hand/@49.8265634,23.9463367,12z/data=!4m6!3m5!1s0x473ae7bd2ffd8c6b:0x25528e37485589a2!8m2!3d49.8075585!4d23.9979474!15sCjfQhNCy0YDQviDQodC10LrQvtC90LQg0KXQtdC90LQsICBLbnlhaHluaSBPbCdoeSBTdCwgMTE0WjYiNNGU0LLRgNC-INGB0LXQutC-0L3QtCDRhdC10L3QtCBrbnlhaHluaSBvbCBoeSBzdCAxMTSSAQ5jbG90aGluZ19zdG9yZQ?shorturl=1',
   address: "Knyahyni Ol'hy St, 114", // 112 ??
   workingHours: [
     F_0900_T_1900,
@@ -247,6 +247,78 @@ const shop9 = {
   },
 };
 
+const shop10 = {
+  id: '1652204589064',
+  name,
+  googleMapsShortLink: 'https://goo.gl/maps/yzs9DEqbiZNQxncB8',
+  googleMapsFullLink: "https://www.google.com/maps/place/Shota+Rustaveli+St,+42,+L'viv,+L'vivs'ka+oblast,+79000/@49.8298782,24.0301237,17z/data=!4m5!3m4!1s0x473add673f8e7c09:0xc5e6e938523831a0!8m2!3d49.8298782!4d24.0323124",
+  address: 'Shota Rustaveli St, 42',
+  workingHours: [
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+  ],
+  priceMap: {
+    regular: {
+      prices: regularPrices,
+      deliveryDate: '2022-05-11',
+    },
+  },
+};
+
+const shop11 = {
+  id: '1652205258530',
+  name,
+  googleMapsShortLink: 'https://goo.gl/maps/ZgrDs79c6Dmp37jn8',
+  googleMapsFullLink: 'https://www.google.com/maps/place/Yevro+Sekond+Khend/@49.8344083,23.9928523,17z/data=!4m5!3m4!1s0x473add2c69b2c3c1:0xa14d5a5b03829854!8m2!3d49.8343806!4d23.9949472?shorturl=1',
+  address: 'Smal-Stotskoho St, 1',
+  workingHours: [
+    F_0900_T_1900,
+    F_0900_T_1400,
+    F_0900_T_1900,
+    F_0900_T_1900,
+    F_0900_T_1900,
+    F_0900_T_1900,
+    F_0900_T_1700,
+  ],
+  priceMap: {
+    regular: {
+      prices: regularPrices,
+      deliveryDate: '2022-05-11',
+    },
+    luxury: {
+      prices: luxuryPrices,
+      deliveryDate: '2022-05-12',
+    },
+  },
+};
+
+const shop12 = {
+  id: '1652207381964',
+  name,
+  googleMapsShortLink: 'https://goo.gl/maps/2osvxRYvgJcVsdK77',
+  googleMapsFullLink: 'https://www.google.com/maps/place/Sekond+Khend/@49.804165,23.988576,17z/data=!4m5!3m4!1s0x473ae7def5729a07:0xf199028bb503d669!8m2!3d49.8043137!4d23.9891118',
+  address: 'Naukova St, 49а',
+  workingHours: [
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+  ],
+  priceMap: {
+    regular: {
+      prices: regularPricesTwoWeeks,
+      deliveryDate: '2022-05-02',
+    },
+  },
+};
 export default [
   shop1,
   shop2,
@@ -257,4 +329,7 @@ export default [
   shop7,
   shop8,
   shop9,
+  shop10,
+  shop11,
+  shop12,
 ];
