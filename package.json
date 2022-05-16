@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "webpack-cli serve --config webpack.dev.ts --open --hot",
     "build": "webpack --config webpack.prod.ts --progress",
-    "lint": "eslint . --ext .js,.ts && stylelint '**/*.scss'"
+    "lint": "eslint . --ext .js,.ts && stylelint '**/*.scss'",
+    "lint:fix": "eslint . --ext .js,.ts --fix"
   },
   "keywords": [],
   "author": "",

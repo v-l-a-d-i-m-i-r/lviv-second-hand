@@ -3,6 +3,7 @@ import { WorkingHours } from './constants';
 const {
   F_0800_T_1900,
   F_0800_T_2000,
+  F_0900_T_1300,
   F_0900_T_1400,
   F_0900_T_1700,
   F_0900_T_1800,
@@ -319,6 +320,53 @@ const shop12 = {
     },
   },
 };
+
+const shop13 = {
+  id: '1652700067454',
+  name,
+  googleMapsShortLink: 'https://goo.gl/maps/LaZhzmFgWXsf4cnC7',
+  googleMapsFullLink: 'https://www.google.com/maps/place/%D0%84%D0%B2%D1%80%D0%BE+%D0%A1%D0%B5%D0%BA%D0%BE%D0%BD%D0%B4+%D1%85%D0%B5%D0%BD%D0%B4/@49.8282512,24.0200398,12z/data=!4m6!3m5!1s0x473add60cfa03109:0x87f274d5d952d75!8m2!3d49.845607!4d24.0195934!15sCj7QldCy0YDQviDRgdC10LrQvtC90LQg0YXQtdC90LQg0LrRgNCw0LrQvtCy0YHQutC40Lkg0YDRi9C90L7QulpAIj7QtdCy0YDQviDRgdC10LrQvtC90LQg0YXQtdC90LQg0LrRgNCw0LrQvtCy0YHQutC40Lkg0YDRi9C90L7QupIBEHNlY29uZF9oYW5kX3Nob3A?shorturl=1',
+  address: 'Bazarna St, 8',
+  workingHours: [
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+  ],
+  priceMap: {
+    regular: {
+      prices: regularPrices,
+      deliveryDate: '2022-05-16',
+    },
+  },
+};
+
+const shop14 = {
+  id: '1652701131748',
+  name,
+  googleMapsShortLink: 'https://goo.gl/maps/ixc2x2EDEYpFVwiw5',
+  googleMapsFullLink: 'https://www.google.com/maps/place/Yevro+Sekond+Khend/@49.828267,24.0550601,13z/data=!4m6!3m5!1s0x473ae7e5c1bcf691:0x9594cf23d8f6aa58!8m2!3d49.8041581!4d23.9907647!15sCi3RlNCy0YDQviDRgdC10LrQvtC90LQg0YXQtdC90LQg0L3QsNGD0LrQvtCy0LBaLyIt0ZTQstGA0L4g0YHQtdC60L7QvdC0INGF0LXQvdC0INC90LDRg9C60L7QstCwkgEQc2Vjb25kX2hhbmRfc2hvcA?shorturl=1',
+  address: 'Naukova St, 45,', // 47
+  workingHours: [
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1300,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1800,
+    F_0900_T_1700,
+  ],
+  priceMap: {
+    regular: {
+      prices: regularPricesTwoWeeks,
+      deliveryDate: '2022-05-12',
+    },
+  },
+};
+
 export default [
   shop1,
   shop2,
@@ -332,4 +380,6 @@ export default [
   shop10,
   shop11,
   shop12,
+  shop13,
+  shop14,
 ];
