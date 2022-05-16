@@ -55,7 +55,80 @@ const shop2 = {
     },
   },
 };
+
+const shop3 = {
+  id: '1652720760869',
+  name,
+  googleMapsShortLink: 'https://goo.gl/maps/ZJPRHubRTLkQSXmY6',
+  googleMapsFullLink: 'https://www.google.com/maps/place/Svit+Sekond-Khendu/@49.8340937,24.0002348,17z/data=!3m1!4b1!4m5!3m4!1s0x473add357645cb87:0x83c193f66f753ad9!8m2!3d49.8341233!4d24.0024956?shorturl=1',
+  address: 'Lypneva Square, 6',
+  workingHours: [
+    F_0900_T_2000,
+    F_0900_T_2000,
+    F_0900_T_2000,
+    F_0900_T_2000,
+    F_0900_T_2000,
+    F_0900_T_2000,
+    F_1000_T_1800,
+  ],
+  priceMap: {
+    regular: {
+      prices: regularPricesTwoWeeks,
+      deliveryDate: '2022-05-05',
+    },
+  },
+};
+
+const shop4 = {
+  id: '1652721571781',
+  name,
+  googleMapsShortLink: 'https://goo.gl/maps/EL4W1FNXoq76YQMS6',
+  googleMapsFullLink: 'https://www.google.com/maps/place/Svit+Sekond-Khendu/@49.8042192,23.9849678,17z/data=!4m5!3m4!1s0x473ae7423df25fa9:0x69426567de67db0!8m2!3d49.8041428!4d23.9870534?shorturl=1',
+  address: 'Naukova St, 51',
+  workingHours: [
+    F_0900_T_2000,
+    F_0900_T_2000,
+    F_0900_T_2000,
+    F_0900_T_2000,
+    F_0900_T_2000,
+    F_0900_T_2000,
+    F_1000_T_1800,
+  ],
+  priceMap: {
+    regular: {
+      prices: regularPricesTwoWeeks,
+      deliveryDate: '2022-05-05',
+    },
+  },
+};
+
+const shop5 = {
+  id: '1652722182501',
+  name,
+  googleMapsShortLink: 'https://goo.gl/maps/GQLjZrJKPvpfSSxQA',
+  googleMapsFullLink: "https://www.google.com/maps/place/The+world's+second+hand/@49.804854,23.9908804,17z/data=!3m1!4b1!4m5!3m4!1s0x473ae7a3592c1429:0xcc5310c978a3e47c!8m2!3d49.804854!4d23.9930691",
+  address: 'Naukova St, 64a',
+  workingHours: [
+    F_0900_T_2000,
+    F_0900_T_2000,
+    F_0900_T_2000,
+    F_0900_T_2000,
+    F_0900_T_2000,
+    F_0900_T_2000,
+    F_1000_T_1800,
+  ],
+  priceMap: {
+    regular: {
+      prices: regularPricesTwoWeeks,
+      deliveryDate: '2022-04-29',
+    },
+  },
+};
+
 export default [
   shop1,
   shop2,
+  shop3,
+  shop4,
+  shop5,
 ];
