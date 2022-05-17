@@ -1,7 +1,9 @@
 import { WorkingHours } from './constants';
 
 const {
+  F_0900_T_1500,
   F_0900_T_1800,
+  F_0900_T_1900,
 } = WorkingHours;
 
 const name = 'Econom Class';
@@ -91,9 +93,36 @@ const shop3 = {
   },
 };
 
+const shop4 = {
+  id: '1652794562362',
+  name,
+  googleMapsShortLink: 'https://goo.gl/maps/iukeXxpcBfgnia2o9',
+  googleMapsFullLink: "https://www.google.com/maps/place/Hors'koi+St,+5%D0%B0,+L'viv,+L'vivs'ka+oblast,+79000/@49.8359375,23.9994466,17z/data=!3m1!4b1!4m5!3m4!1s0x473add822debffff:0xbe0284b024112d3c!8m2!3d49.8359375!4d24.0016353",
+  address: "Hors'koi St, 5а",
+  workingHours: [
+    F_0900_T_1500,
+    F_0900_T_1900,
+    F_0900_T_1900,
+    F_0900_T_1900,
+    F_0900_T_1900,
+    F_0900_T_1900,
+    F_0900_T_1900,
+  ],
+  priceMap: {
+    regular: {
+      prices: regularPrices,
+      deliveryDate: '2022-05-17',
+    },
+    luxury: {
+      prices: luxuryPrices,
+      deliveryDate: '2022-05-18',
+    },
+  },
+};
 export default [
   shop1,
   shop2,
   shop3,
+  shop4,
 ];
 
